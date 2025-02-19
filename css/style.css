@@ -10,8 +10,8 @@
 }
 
 .navbar-brand img {
-    width: 40%; /* Ajuste proporcional */
-    max-width: 150px; /* Limite de largura */
+    width: 40%; 
+    max-width: 150px; 
 }
 .header {
     width: 100%;
@@ -86,37 +86,37 @@
 
 .text-overlay {
     position: absolute;
-    top: 70%;  /* Centraliza verticalmente */
-    left: 70%;  /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%);  /* Ajuste para centralizar exatamente */
+    top: 70%;  
+    left: 70%;  
+    transform: translate(-50%, -50%);  
     text-align: center;
     color: #ffffff;
     padding: 15px;
     font-size: 25px;
     border-radius: 10px;
-    max-width: 80%;  /* Garante que o texto não ultrapasse a largura da imagem */
-    word-wrap: break-word; /* Faz o texto quebrar se necessário */
+    max-width: 80%;  
+    word-wrap: break-word; 
 }
 
 .text-overlay h2, .text-overlay p {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra para o texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
 }
 
 @media (max-width: 992px) {
     .text-overlay {
-        font-size: 1.8rem; /* Ajusta o tamanho do texto em telas menores */
+        font-size: 1.8rem; 
     }
 }
 
 @media (max-width: 768px) {
     .text-overlay {
-        font-size: 1.5rem; /* Reduz ainda mais em telas menores */
+        font-size: 1.5rem; 
     }
 }
 
 @media (max-width: 576px) {
     .text-overlay {
-        font-size: 1.2rem; /* Ajuste final para telas pequenas */
+        font-size: 1.2rem; 
     }
 }
 
@@ -198,7 +198,7 @@
 
 .container{
     max-width: 100em;
-    /* background-color: lightgreen; */
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -210,7 +210,6 @@
     box-sizing: border-box;
 }
 
-/* Card Styling */
 .card-div{
     width: 20em;
     min-height: 20em;
@@ -226,7 +225,7 @@
     transition: transform 0.2s ease-in-out;
 }
 
-/* ======== General styling of all cards and heart divs ========== */
+
 .img-div{
     width: 100%;
     height: 8em;
@@ -500,7 +499,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Centraliza na tela */
+    height: 100vh; 
 }
 
 .video-container iframe {
